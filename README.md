@@ -4,7 +4,7 @@ Setup script for Digital Ocean cloudconfig / metadata on Ubuntu 16.04.x
 This file is tested on DigitalOcean. Feel free to contribute on further development and please report issues.
 
 # DIGITALOCEAN INSTALLATION
-Use this user script while creating the droplet:
+Use this user script while creating the droplet (*screenshot not reflecting current changes to script, be aware*):
 
 ![image](https://cloud.githubusercontent.com/assets/6233650/16084574/04d43c8a-3322-11e6-81f1-a46e31f5728e.png) 
 
