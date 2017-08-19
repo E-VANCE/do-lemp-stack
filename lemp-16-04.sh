@@ -89,7 +89,7 @@ uff8_fix() {
 
 add_apt_repository() {
 	# fixing add-apt-repository: command not found error 
-	echo "fixing add-apt-repository: command not found error"
+    echo "fixing add-apt-repository: command not found error"
 	sleep 1
 	apt-get install -y software-properties-common python-software-properties
 }
@@ -141,11 +141,11 @@ set_packages()
 {
     #updating packages again
     general_update
-    get_wordpress
+    #get_wordpress // I don't need WordPress to be installed, will rather use my own deploy via Wordmove
     set_mysql
     set_php_7
     set_nginx
-    set_wordpress
+    #set_wordpress // I don't need WordPress to be installed, will rather use my own deploy via Wordmove
 }
 
 get_wordpress() {
@@ -314,6 +314,6 @@ get_passwords
 install_packages
 set_packages
 restart_packages
-rm_temp
+#rm_temp
 
 echo "all set.";
