@@ -1,12 +1,7 @@
 #!/bin/sh
 
-# STILL ON PROGRESS
-#
-# WordPress Setup Script
-#
-# This script will install and configure WordPress on
-# an Ubuntu 16.04 droplet
-# Generate root and wordpress mysql passwords
+# SEE ORIGINAL SCRIPT OVER @https://github.com/mirzazeyrek/lemp-wordpress-stack
+# This script will install and configure a Ubuntu 16.04 droplet
 
 export DEBIAN_FRONTEND=noninteractive;
 
