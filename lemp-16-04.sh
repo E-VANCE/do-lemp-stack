@@ -10,7 +10,7 @@ init() {
     pass_file='/root/mysql_passwd.txt'
     # leave sub_folder empty if you don't want to make installation to a subfolder
     sub_folder=""
-    web_address="localhost"
+    web_address="html"
     # for making an installation to www.mywebsite.com/myblog/
     #sub_folder="myblog"
     #web_address="www.mywebsite.com"
